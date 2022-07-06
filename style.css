@@ -1,35 +1,93 @@
 body {
     font-family: 'Poppins', sans-serif;
-    border: 2px solid black;
+    margin: 0;
 }
 
-section {
+.header-part {
     height: 500px;
-    border: 2px solid red;
-    background-image: url(images/donation11.jpg);
+    background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 500px;
+    background-size: 100% 669px;
+}
+
+div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header-part h1 {
+    color: white;
+    font-size: 60px;
 }
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-part p {
     color: white;
 }
 
 p {
-    color: white;
     text-align: center;
+}
+
+.other-amount {
+    font-size: 25px;
+    color: grey;
+    font-weight: 300;
+}
+
+hr {
+    width: 70%;
 }
 
 button {
     color: white;
     padding: 18px 30px;
-    background-color: tomato;
+    background-color: #FF5959;
     border: none;
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;
     display: block;
     margin: 0 auto;
+}
+
+.money-amount {
+    margin: 0 auto;
+}
+
+span {
+    color: #707070;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#two-hundread {
+    background-color: #ffeeee;
+    padding: 15px;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+.container {
+    display: flex;
+}
+
+footer {
+    background-color: black;
+}
+
+footer h1 {
+    color: #d33c3c;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    text-align: center;
 }
